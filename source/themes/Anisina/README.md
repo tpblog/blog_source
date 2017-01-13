@@ -2,19 +2,28 @@
 
 <a href="http://haojen.github.io/2016/08/06/Anisina-%E4%B8%AD%E6%96%87%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/">点击查看中文使用教程</a>
 
-A simple responsive , support qiniu image cdn theme for hexo,
-Ported Theme of Hux Blog and Kaijun Blog.
+> simple / grace / small
 
 <img src="./Screenshots/Anisina.png" />
-
+<!--
 ## Next Version Think About :triangular_flag_on_post:
 
 - Add Custom Favicon Function ( thanks @thankuu advice :blush: )
 - More Animation 
 - Bug fix
-- And If You Have any Best Idea , Please Contact To me , My Email haojen.ma@gmail.com , Or Create A Issue :smile:
+- And If You Have any Best Idea , Please Contact To me , My Email haojen.ma@gmail.com , Or Create A Issue :smile:-->
 
-## New
+## Update Log
+
+### Anisina v3 (2016-09-4)
+
+- Fix Index Pages Http Security Tips
+- Add More Animation
+- Support Web Emoji , here is [use guide](http://haojen.github.io/2016/09/03/Emoji-Demo/) , is very simple.
+- Support Favicon , you can in `_config.yml` add `favicon: yourImagesPath.png`
+- Font Style Adjust
+- Post page Toc Adjust
+- Bug Fix
 
 ### Anisina v2.01 （2016-08-07）
 
@@ -206,6 +215,22 @@ Furthermore, Duoshuo support Sharing. if you only wanna use Duoshuo comment with
 Mini-About-Me module display all your SNS buttons also your avatar and the description if you set sidebar-avatar and sidebar-about-description which is very useful and common for a sidebar so it is default with your sidebar.
 
 It is really nice-looking and well-designed. It would be hidden in a small screen seeing the sidebar would be push to bottom and there is already a footer including SNS feature which is similar.
+
+#### RSS
+
+You can install plugin 'hexo-generator-feed' execute following command:
+	npm install hexo-generator-feed --save
+if you have already install it, Once you generate static page, atom.xml can auto generation.
+
+
+then you add your configuration in _config_yml like this:
+	plugins: 
+		hexo-generator-feed	#RSS订阅插件
+	links: #添加链接信息
+		Feed: atom.xml
+
+if you want to add label RSS in SNS,you also can append configuration like the belowing behind the 'SNS settings':
+	RSS: true
 
 ### Post
 
