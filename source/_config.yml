@@ -21,7 +21,7 @@ keyword: Java # seo key words
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://tpblog.github.io
+url: http://tupengtongxue.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -29,7 +29,7 @@ permalink_defaults:
 # SNS settings
 # RSS:
 weibo_username: tupengtongxue
-github_username: tpblog
+github_username: tupengtongxue
 twitter_username: tupengwork
 facebook_username: tupengwork
 linkedin_username:
@@ -42,7 +42,7 @@ anchorjs: false                        # if you want to customize anchor. check 
 disqus_username:
 
 # Duoshuo settings
-duoshuo_username:  # 你的多说帐号
+duoshuo_username: tupeng # 你的多说帐号
 # Share component is depend on Comment so we can NOT use share only.
 duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
