@@ -5,7 +5,6 @@
 # Site
 title: 涂鹏 # your blog title name
 subtitle:
-description: "涂鹏同学在 Github 上的个人博客"
 author: 涂鹏 # 作者
 language:
 timezone:
@@ -15,7 +14,9 @@ timezone:
 SEOTitle: 涂鹏同学个人博客
 header-img: http://obzsjygtv.bkt.clouddn.com/bg9.jpg
 email: tupengwork@qq.com
+description: "涂鹏同学在 Github 上的个人博客"
 keyword: Java # seo key words
+
 # custom end
 
 # URL
@@ -33,9 +34,30 @@ twitter_username: tupengwork
 facebook_username: tupengwork
 linkedin_username:
 
+# Build settings
+anchorjs: false                        # if you want to customize anchor. check out line:181 of `post.html`
+
+
+# Disqus settings
+disqus_username:
+
+# Duoshuo settings
+duoshuo_username:  # 你的多说帐号
+# Share component is depend on Comment so we can NOT use share only.
+duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id:
+# Google Analytics
+ga_track_id:             # Format: UA-xxxxxx-xx
+ga_domain:
+
 # Sidebar settings
 sidebar-about-description: 上善若水 # 个人描述
 sidebar-avatar: http://obzsjygtv.bkt.clouddn.com/head.jpg    # use absolute URL
+
 
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
@@ -96,8 +118,9 @@ theme: Anisina
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: git@github.com:tpblog/tpblog.github.io.git
+  repo: git@github.com:tpblog/tpblog.github.io.git
   branch: master
+
 
 # img CDN path
 cdn-url:  # 你的CDN地址
