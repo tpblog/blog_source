@@ -118,7 +118,7 @@ theme: Anisina
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:tpblog/tpblog.github.io.git
+  repository: git@github.com:tpblog/tpblog.github.io.git
   branch: master
 
 
